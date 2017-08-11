@@ -1,0 +1,9 @@
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\StageLibrary\bin\Debug\StageLibrary.dll
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\StageLibrary\bin\Debug\StageLibrary.pdb
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\StageLibrary\bin\Debug\EasyMathLibrary.dll
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\StageLibrary\bin\Debug\PokemonLibrary.dll
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\StageLibrary\bin\Debug\EasyMathLibrary.pdb
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\StageLibrary\bin\Debug\PokemonLibrary.pdb
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\StageLibrary\obj\Debug\StageLibrary.csprojResolveAssemblyReference.cache
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\StageLibrary\obj\Debug\StageLibrary.dll
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\StageLibrary\obj\Debug\StageLibrary.pdb

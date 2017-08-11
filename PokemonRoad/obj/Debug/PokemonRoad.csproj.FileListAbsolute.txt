@@ -1,0 +1,16 @@
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\bin\Debug\PokemonRoad.exe.config
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\bin\Debug\PokemonRoad.exe
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\bin\Debug\PokemonRoad.pdb
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\obj\Debug\PokemonRoad.csprojResolveAssemblyReference.cache
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\obj\Debug\PokemonRoad.Properties.Resources.resources
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\obj\Debug\PokemonRoad.csproj.GenerateResource.Cache
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\obj\Debug\PokemonRoad.exe
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\obj\Debug\PokemonRoad.pdb
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\bin\Debug\PokemonLibrary.dll
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\bin\Debug\EasyMathLibrary.dll
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\bin\Debug\PokemonLibrary.pdb
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\bin\Debug\EasyMathLibrary.pdb
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\obj\Debug\PokemonRoad.PokemonRoad.resources
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\bin\Debug\StageLibrary.dll
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\bin\Debug\StageLibrary.pdb
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\obj\Debug\PokemonRoad.MeetBulbasaur.resources

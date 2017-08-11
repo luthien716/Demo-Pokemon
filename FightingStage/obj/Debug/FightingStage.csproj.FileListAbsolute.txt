@@ -1,0 +1,9 @@
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\FightingStage\bin\Debug\FightingStage.exe.config
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\FightingStage\bin\Debug\FightingStage.exe
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\FightingStage\bin\Debug\FightingStage.pdb
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\FightingStage\obj\Debug\FightingStage.csprojResolveAssemblyReference.cache
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\FightingStage\obj\Debug\FightingStage.Properties.Resources.resources
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\FightingStage\obj\Debug\FightingStage.Stage.resources
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\FightingStage\obj\Debug\FightingStage.csproj.GenerateResource.Cache
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\FightingStage\obj\Debug\FightingStage.exe
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\FightingStage\obj\Debug\FightingStage.pdb
