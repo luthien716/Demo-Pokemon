@@ -14,3 +14,4 @@ C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\obj\Debug\PokemonRoad
 C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\bin\Debug\StageLibrary.dll
 C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\bin\Debug\StageLibrary.pdb
 C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\obj\Debug\PokemonRoad.MeetBulbasaur.resources
+C:\Test C#\CS283_Final\PokemonRoad\PokemonRoad\PokemonRoad\obj\Debug\PokemonRoad.MeetCharmander.resources

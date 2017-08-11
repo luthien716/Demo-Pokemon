@@ -59,6 +59,7 @@
             this.ViridianCity.Size = new System.Drawing.Size(90, 90);
             this.ViridianCity.TabIndex = 1;
             this.ViridianCity.UseVisualStyleBackColor = false;
+            this.ViridianCity.Click += new System.EventHandler(this.ViridianCity_Click);
             // 
             // PewterCity
             // 

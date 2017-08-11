@@ -16,13 +16,15 @@ namespace PokemonRoad
     public partial class PokemonRoad : Form
     {
         public Pikachu _UsersPikachu = new Pikachu();
-        public Bulbasaur _Bulbasaur = new Bulbasaur();
-        public int CurrentSeq;
 
-        public PokemonRoad(Pikachu defaultspokemon, int seq)
+        public int CurrentSeq;
+        public bool StageSitch;
+
+        public PokemonRoad(Pikachu defaultspokemon, int seq, bool success)
         {
             _UsersPikachu = defaultspokemon;
             CurrentSeq = seq;
+            StageSitch = success;
             CurrentStage.Text = CheckStage().ToString();
             InitializeComponent();
         }
@@ -31,27 +33,26 @@ namespace PokemonRoad
         List<StageInfo> stageList = new List<StageInfo>();
         public PokemonRoad()
         {
-           var _bossbulbasaur = _Bulbasaur.pokemon;
+
             InitializeComponent();
             stageList.Add(new StageInfo()
             { StageName = "MeetBulbasaur",
-              success = false, pokemon = _bossbulbasaur, Seq = 1});
-
+              success = false, Seq = 1});
+            //success = false, pokemon = _bossbulbasaur, Seq = 1});
             stageList.Add(new StageInfo()
             {
                 StageName = "MeetCharmander",
-              success = false, pokemon = _bossbulbasaur, Seq = 2 });
+              success = false, Seq = 2 });
 
             stageList.Add(new StageInfo()
             { StageName = "MeetSquirtle",
-              success = false, pokemon = _bossbulbasaur, Seq = 3 });
+              success = false, Seq = 3 });
 
         }
 
         //檢查目前關卡
         public int CheckStage()
-        {
-            
+        {        
             int currentStage = 0;
 
             foreach (var stage in stageList)
@@ -67,14 +68,23 @@ namespace PokemonRoad
   
         private void button1_Click(object sender, EventArgs e)
         {
-
-            //fighting(_pika, stageList[currentStage]);
-
             MeetBulbasaur MeetBulbasaur = new MeetBulbasaur(_UsersPikachu);//產生Form2的物件，才可以使用它所提供的Method
             this.Visible = false;//將Form1隱藏。由於在Form1的程式碼內使用this，所以this為Form1的物件本身
             MeetBulbasaur.Visible = true;
 
         }
+        private void ViridianCity_Click(object sender, EventArgs e)
+        {
+
+            if (CheckStage() == 1)
+            {
+                MeetCharmander MeetCharmander = new MeetCharmander(_UsersPikachu);//產生Form2的物件，才可以使用它所提供的Method
+                this.Visible = false;//將Form1隱藏。由於在Form1的程式碼內使用this，所以this為Form1的物件本身
+                MeetCharmander.Visible = true;
+            }
+
+        }
+
 
         //Button顯示透明
         private void PokemonRoad_Load(object sender, EventArgs e)
@@ -98,5 +108,7 @@ namespace PokemonRoad
             VermilionCity.FlatStyle = FlatStyle.Popup;
 
         }
+
+
     }
 }

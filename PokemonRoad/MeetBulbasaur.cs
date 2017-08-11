@@ -42,12 +42,14 @@ namespace PokemonRoad
         private void Attack_Click(object sender, EventArgs e)
         {
             _bulbasaur.pokemon.CurrentHp -= userspikachu.pokemon.Attack() + _bulbasaur.pokemon.Defend();
+            EnemyHp.Text = "HP" + _bulbasaur.pokemon.CurrentHp.ToString() + "/" + _bulbasaur.pokemon.Hp.ToString();
+
             if (_bulbasaur.pokemon.CurrentHp <= 0)
             {
                 _MeetBulbasaur.success = true;
                 userspikachu.pokemon.LvUp();
 
-                PokemonRoad PokemonRoad = new PokemonRoad(userspikachu, _MeetBulbasaur.Seq);//產生Form2的物件，才可以使用它所提供的Method
+                PokemonRoad PokemonRoad = new PokemonRoad(userspikachu, _MeetBulbasaur.Seq, _MeetBulbasaur.success);//產生Form2的物件，才可以使用它所提供的Method
                 this.Visible = false;//將Form1隱藏。由於在Form1的程式碼內使用this，所以this為Form1的物件本身
                 PokemonRoad.Visible = true;
             }
@@ -62,7 +64,7 @@ namespace PokemonRoad
             _MeetBulbasaur.success = true;
             userspikachu.pokemon.LvUp();
 
-            PokemonRoad PokemonRoad = new PokemonRoad(userspikachu, _MeetBulbasaur.Seq);//產生Form2的物件，才可以使用它所提供的Method
+            PokemonRoad PokemonRoad = new PokemonRoad(userspikachu, _MeetBulbasaur.Seq, _MeetBulbasaur.success);//產生Form2的物件，才可以使用它所提供的Method
             this.Visible = false;//將Form1隱藏。由於在Form1的程式碼內使用this，所以this為Form1的物件本身
             PokemonRoad.Visible = true;
         }
@@ -74,7 +76,14 @@ namespace PokemonRoad
 
         private void MeetBulbasaur_Load(object sender, EventArgs e)
         {
+            Attack.BackColor = Color.Transparent;
+            Attack.FlatStyle = FlatStyle.Popup;
 
+            Defend.BackColor = Color.Transparent;
+            Defend.FlatStyle = FlatStyle.Popup;
+
+            Super.BackColor = Color.Transparent;
+            Super.FlatStyle = FlatStyle.Popup;
         }
     }
 }
