@@ -11,6 +11,7 @@ namespace StageLibrary
     public class StageInfo
     {
         public int Seq;
+        public int CurrentSeq;
         public string StageName;
         public bool success = false;
         public Pokemon pokemon;

@@ -17,9 +17,9 @@ namespace PokemonRoad
     {
         public Pikachu _UsersPikachu = new Pikachu();
         public Bulbasaur _Bulbasaur = new Bulbasaur();
-        public StageInfo CurrentSeq;
+        public int CurrentSeq;
 
-        public PokemonRoad(Pokemon defaultspokemon, StageInfo seq)
+        public PokemonRoad(Pikachu defaultspokemon, int seq)
         {
             _UsersPikachu = defaultspokemon;
             CurrentSeq = seq;
