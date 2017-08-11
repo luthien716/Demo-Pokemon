@@ -15,23 +15,20 @@ namespace PokemonRoad
 {
     public partial class PokemonRoad : Form
     {
-
+        public Pikachu _UsersPikachu = new Pikachu();
+        public Bulbasaur _Bulbasaur = new Bulbasaur();
+        public StageInfo CurrentSeq;
 
         public PokemonRoad(Pokemon defaultspokemon, StageInfo seq)
         {
-            defaultspokemon = _UsersPikachu;
-            seq = PokemonRoad.StageInfo.Seq;
+            _UsersPikachu = defaultspokemon;
+            CurrentSeq = seq;
             CurrentStage.Text = CheckStage().ToString();
             InitializeComponent();
         }
 
-        public Pikachu _UsersPikachu = new Pikachu();
-        public Bulbasaur _Bulbasaur = new Bulbasaur();
-
 
         List<StageInfo> stageList = new List<StageInfo>();
-
-
         public PokemonRoad()
         {
            var _bossbulbasaur = _Bulbasaur.pokemon;
@@ -51,8 +48,6 @@ namespace PokemonRoad
 
         }
 
-
-
         //檢查目前關卡
         public int CheckStage()
         {
@@ -69,17 +64,6 @@ namespace PokemonRoad
             }
             return currentStage;           
         }
-
-        //打完了以後做的事情
-        //public void Fighting(Pokemon UsersPokemon , StageInfo stage)
-        //{
-        //    UsersPokemon.LvUp();
-            
-        //    if (true)
-        //    {
-        //        stage.success = true;
-        //    }
-        //}
   
         private void button1_Click(object sender, EventArgs e)
         {
